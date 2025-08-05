@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contato - Excêntricos Coffeeshop</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="header">
+    <a href="index.html" class="logo-fixed"><i class="fas fa-mug-hot"></i> Excêntricos</a>
+    <nav>
+      <a href="index.html" class="nav-btn"><i class="fas fa-home"></i> Home</a>
+      <a href="menu.html" class="nav-btn"><i class="fas fa-list"></i> Menu</a>
+      <a href="contato.html" class="nav-btn"><i class="fas fa-envelope"></i> Contato</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Fale conosco</h1>
+    <section class="destaque">
+      <h2>Informações de contato ට</h2>
+      <p><i class="fas fa-map-marker-alt"></i> Endereço: R. Constantino Verrone, 18071-051 - Jardim Botucatu, Sorocaba - SP</p>
+      <p><i class="fas fa-phone"></i> Instagram: @excentricobros</p>
+      <p><i class="fas fa-envelope"></i> Email: excentricobros@proton.me</p>
+      <p><i class="fas fa-clock"></i> Horário: Segunda a Domingo, 24h online</p>
+    </section>
+    <section class="destaque" style="margin-top:24px;">
+      <h2>Envie uma mensagem</h2>
+<form method="POST" action="/enviar-contato">
+  <label for="nome">Nome:</label><br>
+  <input type="text" id="nome" name="nome" required style="width:100%;padding:8px;border-radius:8px;border:1px solid #a1887f;background:#3e2723;color:#ffe0b2;margin-bottom:12px;"><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required style="width:100%;padding:8px;border-radius:8px;border:1px solid #a1887f;background:#3e2723;color:#ffe0b2;margin-bottom:12px;"><br>
+  <label for="mensagem">Mensagem:</label><br>
+  <textarea id="mensagem" name="mensagem" rows="4" required style="width:100%;padding:8px;border-radius:8px;border:1.5px solid #a1887f;background:#3e2723;color:#ffe0b2;margin-bottom:16px;"></textarea><br>
+  <button type="submit" class="btn-contato"><i class="fas fa-paper-plane"></i> Enviar</button>
+</form>
+    </section>
+  </main>
+</body>
+</html>

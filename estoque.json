@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nome": "Orange Kush (OG)",
+    "preco": 48.00,
+    "quantidade": 10
+  },
+  {
+    "id": 2,
+    "nome": "White Widow (WW)",
+    "preco": 50.00,
+    "quantidade": 8
+  },
+  {
+    "id": 3,
+    "nome": "Super Skunk (#1)",
+    "preco": 48.00,
+    "quantidade": 12
+  },
+  {
+    "id": 4,
+    "nome": "Skunk (#1)",
+    "preco": 42.00,
+    "quantidade": 15
+  }
+]
